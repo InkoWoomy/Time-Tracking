@@ -1,0 +1,78 @@
+.data-box-set
+{
+    padding-inline: 0%;
+    
+}
+
+.btn p:hover, h5:hover
+{
+    color: #FFFFFF
+}
+
+.boundary-bg
+{
+    p
+    {
+        color: #FFFFFF;
+    }
+}
+
+.category-img
+{   
+    width: 78px; 
+    height: 45px; 
+    object-fit: cover;
+}
+
+.box-bg
+{
+    background-color: #1C204B;
+}
+
+.profile-bg
+{
+    background-color: #5747EA;
+}
+
+.work-bg
+{
+    background-color: #FF8B64;
+}
+
+.play-bg
+{
+    background-color: #55C2E6;
+}
+
+.study-bg
+{
+    background-color: #FF5E7D;
+}
+
+.exercise-bg
+{
+    background-color: #4BCF82;
+}
+
+.social-bg
+{
+    background-color: #7335D2;
+}
+
+.selfcare-bg
+{
+    background-color: #F1C75B;
+}
+
+
+h1
+{
+    color: #FFFFFF;
+    font-family: Rubik;
+    font-weight: lighter;
+}
+
+p, h2, h5, h6
+{
+    color: #BBC0FF;
+}
