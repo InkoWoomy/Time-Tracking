@@ -15,7 +15,14 @@
     {
         color: #FFFFFF;
     }
+
+    .box-bg:hover
+    {
+        background-color: #33397A;
+    }
 }
+
+
 
 .category-img
 {   
