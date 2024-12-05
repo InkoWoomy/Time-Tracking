@@ -25,6 +25,18 @@ async function apiData() {
     console.log(data)
     timeData = data;
     console.log(timeData)
+    timeWorkCurrent.innerText = ` ${timeData[0].timeframes.weekly.current}hrs`;
+    timeWorkPrevious.innerText = `Last Week - ${timeData[0].timeframes.weekly.previous}hrs`;
+    timePlayCurrent.innerText = ` ${timeData[1].timeframes.weekly.current}hrs`;
+    timePlayPrevious.innerText = `Last Week - ${timeData[1].timeframes.weekly.previous}hrs`;
+    timeStudyCurrent.innerText = ` ${timeData[2].timeframes.weekly.current}hrs`;
+    timeStudyPrevious.innerText = `Last Week - ${timeData[2].timeframes.weekly.previous}hrs`;
+    timeExerciseCurrent.innerText = ` ${timeData[3].timeframes.weekly.current}hrs`;
+    timeExercisePrevious.innerText = `Last Week - ${timeData[3].timeframes.weekly.previous}hrs`;
+    timeSocialCurrent.innerText = ` ${timeData[4].timeframes.weekly.current}hrs`;
+    timeSocialPrevious.innerText = `Last Week - ${timeData[4].timeframes.weekly.previous}hrs`;
+    timeSelfCareCurrent.innerText = ` ${timeData[5].timeframes.weekly.current}hrs`;
+    timeSelfCarePrevious.innerText = `Last Week - ${timeData[5].timeframes.weekly.previous}hrs`;
 }
 
 apiData();

@@ -77,7 +77,27 @@ h1
     color: #FFFFFF;
     font-family: Rubik;
     font-weight: lighter;
+    font-size: 60px;
 }
+
+.profile-image
+    {
+        width: 50%;
+    }
+
+
+@media only screen and (max-width: 600px) {
+    h1
+    {
+        font-size: 32px;
+    }
+
+    .profile-image
+    {
+        width: 100%;
+    }
+}
+
 
 p, h2, h5, h6
 {
